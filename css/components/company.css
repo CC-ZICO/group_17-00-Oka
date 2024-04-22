@@ -1,0 +1,71 @@
+.company__box-box{
+    display: flex;
+    padding:128px 0 60px ;
+    border-bottom:1px solid #E8E8E9 ;
+    max-width: 912px;
+    flex-wrap: wrap;
+}
+
+.company__box{
+    display: flex;
+    flex-direction: column;
+    max-width: 466px;
+    gap: 26px;
+    padding: 108px 0;
+}
+.company__box-title{
+    font-size: 48px;
+    font-family:"Roboto";
+    color: #000000;
+}
+.company__box-txt{
+    font-size: 17px;
+    font-family:"Inter";
+    color: #46474E;
+    max-width: 408px;
+}
+.company__box-cards{
+    display: flex;
+    flex-direction: column;
+    max-width: 382px;
+    gap: 17px;
+}
+.company__box-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    border: 1px solid #E8E8E9;
+    border-radius:10% ;
+    padding: 24px;
+}
+.company__card-img{
+    display: flex;
+    justify-content: space-between;
+}
+.company__card-card{
+    display: flex;
+    gap: 16px;
+}
+.company__card-box2{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.company__box-cardtxt1{
+    padding-top: 16px;
+    font-size: 14px;
+    font-family:"Inter";
+    color: #000000;
+}
+.company__box-cardtxt2{
+    padding-top: 17px;
+    font-size: 14px;
+    font-family:"Inter";
+    color: #000;
+}
+.company__box-cardtxt3{
+    padding-top: 24px;
+    font-size: 13px;
+    font-family:"Inter";
+    color: #697882;
+}
