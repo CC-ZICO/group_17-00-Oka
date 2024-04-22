@@ -1,0 +1,44 @@
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    gap: 30px;
+    align-items: center;
+    font-family: Inter;
+}
+
+.nav__list {
+    display: flex;
+    padding: 2px 0;
+}
+
+.nav__link {
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #131314;
+}
+
+.nav__buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons__link {
+    border-radius: 8px;
+    padding: 0 33px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #131314;
+}
+
+.black__btn {
+    border-radius: 8px;
+    padding: 0 41px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    background:  black;
+    color: white;
+}
