@@ -1,0 +1,65 @@
+.footer {
+   padding: 81px 0 60px 0;
+   background: #F6F6F6;
+}
+
+.footer__cards {
+   display: grid;
+   place-items: center;
+}
+
+.footer__title {
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 62px;
+   letter-spacing: 0.29px;
+   text-align: center;
+}
+
+.footer__txt {
+   font-size: 17px;
+   line-height: 30px;
+   text-align: center;
+   color: #46474e;
+   margin: 15px 0 5px 0;
+}
+
+.footer__text {
+   font-size: 11px;
+   line-height: 30px;
+   text-align: center;
+   color: #46474e;
+}
+
+.footer__btn {
+   max-width: 258px;
+   width: 100%;
+   text-align: center;
+   margin: 24px 0 60px 0;
+}
+
+.footer__card {
+   padding: 30px 24px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.footer__list {
+   display: flex;
+   gap: 24px;
+}
+
+.footer__link {
+   font-size: 14px;
+   line-height: 17px;
+   color: #131314;
+}
+
+.footer__card-btn {
+   font-size: 13px;
+   line-height: 23px;
+   color: #46474e;
+}
